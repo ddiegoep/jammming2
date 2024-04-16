@@ -18,7 +18,7 @@ const Spotify = {
 
     ImplicitGrantAccess() {
         //get access to Spotify account with implicit grant method
-        const redirectUri = 'http://localhost:3000/';
+        const redirectUri = 'https://ddiegoep.github.io/jammming2/';
         const scope = 'user-read-private user-read-email playlist-modify-private playlist-modify-public playlist-read-private';
         const url = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=${scope}&redirect_uri=${redirectUri}`;
         window.location = url;
