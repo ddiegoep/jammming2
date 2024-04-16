@@ -1,0 +1,50 @@
+.LogIn{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 35rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0rem 0.2rem 5px 0px black;
+}
+
+.LogIn p{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding: 0rem 2rem;
+    color: black;
+}
+
+.LogIn button{
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+    border-radius: 1rem;
+    background-color: #d9841c;
+    cursor: pointer;
+    border: 1px solid black;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0rem 0.2rem 5px 0px black;
+    transition: 0.3s;
+}
+
+.LogIn button:hover{
+    color: white;
+    box-shadow: 0rem 0.5rem 5px 0px black;
+    transform: translateY(-0.3rem);
+}
+
+@media (max-width: 600px) {
+    
+    .LogIn{
+        max-width: 90vw;
+    }
+
+}

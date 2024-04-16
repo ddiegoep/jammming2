@@ -1,0 +1,30 @@
+.searchResults{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1rem;
+   width: 35rem;
+}
+
+.results{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border-radius: 2rem;
+   padding-bottom: 1rem;
+   border: 1px solid black;
+   width: 30rem;
+   box-shadow: 0rem 0.2rem 5px 0px black;
+}
+
+.results h1{
+   margin-left: 2rem;
+}
+
+@media (max-width: 520px){
+   
+   .searchResults{
+      width: 90vw;
+   }
+
+}
